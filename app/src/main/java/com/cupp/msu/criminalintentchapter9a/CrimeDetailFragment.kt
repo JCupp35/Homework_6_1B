@@ -15,9 +15,9 @@ class CrimeDetailFragment :Fragment(){
 
 private lateinit var crime:Crime
 // private lateinit var binding :FragmentCrimeDetailBinding
-private var _binding : FragmentCrimeDetailBinding? = null
+ private var _binding : FragmentCrimeDetailBinding? = null
 
-        private val binding
+        val binding
             get() = checkNotNull(_binding){
                 "Cannot access binding because it is null. Is the view visible"
             }
@@ -77,6 +77,7 @@ private var _binding : FragmentCrimeDetailBinding? = null
         // binding = null
         _binding = null
     }
+
 }
 
 
